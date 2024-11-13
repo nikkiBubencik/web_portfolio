@@ -1,0 +1,13 @@
+.project-container {
+    width: 75%;
+    margin: auto;
+}
+
+.project{
+    margin: auto;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
