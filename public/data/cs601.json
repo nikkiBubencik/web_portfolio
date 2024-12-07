@@ -1,14 +1,20 @@
 [
     {
         "name": "DOM Manipulation",
-        "description": ["",
-            "See Form Section for Exanple"
+        "description": ["JavaScript allows you to access and manipulate the DOM to dynamically update the content and structure of a web page", 
+            "You can access HTML elements using methods like getElementById(), getElementsByClassName(), getElementsByTagName(), and querySelector()",
+            "You can change the text content, and modify CSS styles using style property or by adding/removing CSS classes.",
+            "See Form Section for an exanple"
             ],
         "example": ""
     },
     {
         "name": "Forms",
-        "description": [],
+        "description": ["Forms allow for user input with text fields, radio buttons, and checkboxes",
+            "You can use Javascript and regular expressions or HTML attributes to validate input fields",
+            "JavaScript allows you to access and manipulate the DOM to dynamically update the content and structure of a web page",
+            ""
+        ],
         "example": "FormExample"
     },
     {

@@ -1,8 +1,11 @@
 import './cs601.css';
+import FormExample from './Examples/FormExample';
 
 function TopicCard( props ){
     const { name, description, example } = props.topic;
-    console.log(description);
+    const exampleMap = {
+        FormExample: <FormExample />
+    }
     // might make description of list of bullet points then would have to change how it is shown
     return (
         <div className="learner-card">
@@ -13,7 +16,7 @@ function TopicCard( props ){
                 ))}
             </ul>
             {example !== "" &&
-                example}
+                exampleMap[example]}
         </div>
     )
 }
