@@ -2,3 +2,48 @@
     background-color: rgb(100, 100, 100);
     color: white;
 }
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.header-content nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+}
+
+.nav-link:hover{ 
+    background-color: rgb(80, 80, 80);
+}
+
+.footer-content h3{
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+.footer-links{
+    padding: 10px;
+    display: flex; 
+    justify-content: center; 
+    gap: 8px;
+}
+
+.icon{
+    height: 20px;
+    width: auto;
+}
+
+#copyright::before{
+    content: "\00A9";
+}

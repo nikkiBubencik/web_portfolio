@@ -2,8 +2,20 @@ import './Header.css';
 
 function Footer(){
     return(
-        <div className="background">
-            <h2>Footer</h2>
+        <div className="footer-content background">
+            <h3>My Links</h3>
+            <div className="footer-links">
+                <a href="https://github.com/nikkiBubencik" target='_blank'>
+                    <img src='images/icons/github.png' alt="Github Logo" className="icon" />
+                </a>
+                <a href="https://www.linkedin.com/in/nicole-bubencik/" target="blank">
+                    <img src='images/icons/linkedin.png' alt="LinkedIn Logo"  className="icon"/>
+                </a>
+                <a href="mailto:nikkibubencik@gmail.com">
+                    <img src='images/icons/email.png' alt="My Email: nikkibubencik@gmail.com" title='nikkibubencik@gmail.com' className="icon"/>
+                </a>
+            </div>
+            <p id="copyright">2024 Nicole Bubencik</p>
         </div>
     )
 }

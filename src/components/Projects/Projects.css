@@ -2,6 +2,11 @@
     width: 75%;
     margin: auto;
 }
+/* section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
 
 .project{
     margin: auto;
@@ -11,3 +16,17 @@
     align-items: center;
 }
 
+.project-link::after{
+    content: "\2192";
+}
+.projeect-card:hover{
+    background: rgb(148, 208, 228);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.project-links-container{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}

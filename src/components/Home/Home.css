@@ -1,0 +1,11 @@
+.home-page-card{
+    width: 75%;
+    margin: auto;
+}
+
+.page-link::after{
+    content: "\2192";
+}
+@media screen {
+    
+}
