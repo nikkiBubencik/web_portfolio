@@ -3,7 +3,7 @@ import { useState } from "react";
 function FormExample(){
     const [name, setName] = useState("");
     const [color, setColor] = useState('black');
-
+    const [errorMessage, setErrorMessage] = useState('');
     function handleChange(event){
         event.preventDefault();
         setColor(event.target.value);
@@ -11,10 +11,15 @@ function FormExample(){
 
     function handleSubmit(event){
         event.preventDefault();
-        console.log(name, color);
-        const formOutput = document.getElementById('form-output');
-        formOutput.textContent = `Hello ${name}!`;
-        formOutput.style.color = color;
+        if(name.length > 0){
+            setErrorMessage("");
+            const formOutput = document.getElementById('form-output');
+            formOutput.textContent = `Hello ${name}!`;
+            formOutput.style.color = color;
+        }
+        else{
+            setErrorMessage("Please enter a name");
+        }
     }
 
     return(
@@ -63,6 +68,7 @@ function FormExample(){
                 </label><br />
                 <button type="submit" >Submit</button> 
             </form>
+            {errorMessage !== "" && <p>{errorMessage}</p>}
             <p id="form-output"></p>
         </div>
     )

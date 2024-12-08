@@ -26,9 +26,8 @@ function Cs601 (){
 
     return (
         <div className="topic-container">
-            <h2>Thingsa I learned in CS 601</h2>
+            <h2 className="topic-header">Things I learned in CS 601</h2>
             <h3>Web Develpment Course at Boston University</h3>
-            <p> Make each one of these their own component</p>
             <div className='topic-subcontainer'>
                 {topics.map((topic, index) => {
                     return <TopicCard topic={topic} />

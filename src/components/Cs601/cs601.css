@@ -1,10 +1,18 @@
 .learner-card{
-    border: 1px solid black;
+    padding: 15px;
+}
+
+.learner-card:hover{
+    background-color: rgb(148, 208, 228);
 }
 
 ul{
     list-style-type: circle;
     justify-content:left;
+}
+
+.topic-header{
+    margin-bottom: 0px;
 }
 .topic-subcontainer{
     display: flex;

@@ -1,0 +1,46 @@
+{
+    "nonLiving": [
+        {"id": 1,
+        "name": "Pencil",
+        "category": "non-living"
+        },
+        {"id": 2,
+        "name": "Blanket",
+        "category": "non-living"
+        },
+        {"id": 3,
+        "name": "Desk",
+        "category": "non-living"
+        },
+        {"id": 4,
+        "name": "Shoes",
+        "category": "non-living"
+        },
+        {"id": 5,
+        "name": "Chair",
+        "category": "non-living"
+        }
+    ],
+    "living": [
+        {"id": 6,
+        "name": "Cat",
+        "category": "living"
+        },
+        {"id": 7,
+        "name": "Plant",
+        "category": "living"
+        },
+        {"id": 8,
+        "name": "Horse",
+        "category": "living"
+        },
+        {"id": 9,
+        "name": "Snake",
+        "category": "living"
+        },
+        {"id": 10,
+        "name": "Pig",
+        "category": "living"
+        }
+    ]
+}

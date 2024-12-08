@@ -3,7 +3,8 @@
         "name": "DOM Manipulation",
         "description": ["JavaScript allows you to access and manipulate the DOM to dynamically update the content and structure of a web page", 
             "You can access HTML elements using methods like getElementById(), getElementsByClassName(), getElementsByTagName(), and querySelector()",
-            "You can change the text content, and modify CSS styles using style property or by adding/removing CSS classes.",
+            "You can change the text content, and modify CSS styles using style property or by adding/removing CSS classes",
+            "Allows for interactivity by adding event listners",
             "See Form Section for an exanple"
             ],
         "example": ""
@@ -12,14 +13,16 @@
         "name": "Forms",
         "description": ["Forms allow for user input with text fields, radio buttons, and checkboxes",
             "You can use Javascript and regular expressions or HTML attributes to validate input fields",
-            "JavaScript allows you to access and manipulate the DOM to dynamically update the content and structure of a web page",
-            ""
+            "JavaScript allows you to access and manipulate the DOM to dynamically update the content and structure of a web page"
         ],
         "example": "FormExample"
     },
     {
         "name": "Drag and Drop",
-        "description": [],
+        "description": ["Allows users to drag elemnts from one location to another",
+        "By seeting the elements draggable attribute to true allows the element to be dragged",
+        "Drag and drop feature has a few event listners including dragStart, dragEnd, dragOver, and drop"
+        ],
         "example": "DragDropExample"
     },
     {
