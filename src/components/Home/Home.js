@@ -15,7 +15,7 @@ function Home(){
             </div>
             <div className="home-page-card">
                 <h2>My Interests</h2>
-                <p>Outside of coding I enjoy running, reading, hiking, and taking care of my plants. I also enjoy to travel; my family and I recently hiked in Zion National Park in Utah and have visited many states. Outside the United States I have visited countries including England, Ireland, France, Spain, Portugal, and Cost Rica.</p>
+                <p>Outside of coding I enjoy running, reading, hiking, and taking care of my plants. I also enjoy traveling; my family and I recently hiked in Zion National Park in Utah and have visited many states. Outside the United States I have visited countries including England, Ireland, France, Spain, Portugal, and Costa Rica.</p>
             </div>
         </div>
     )

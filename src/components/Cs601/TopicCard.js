@@ -15,7 +15,7 @@ function TopicCard( props ){
     function handleSeeExampleChange(){
         setSeeExample(!seeExample);
     }
-    // might make description of list of bullet points then would have to change how it is shown
+
     return (
         <div className="learner-card">
             <h4>{name}</h4>

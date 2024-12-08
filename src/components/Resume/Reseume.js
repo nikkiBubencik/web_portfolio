@@ -1,4 +1,3 @@
-import resume from './Nicole_Bubencik.jpg';
 import './Resume.css';
 import JobCard from './JobCard';
 import { useState, useEffect } from 'react';
@@ -59,13 +58,13 @@ function Resume( props ){
             </section>
             
             <div className="portfolio-links">
-                <a href={resume} download>
+                <a href="images/Nicole_Bubencik.jpg" download>
                     Download Resume
                 </a>
-                <a href="https://github.com/nikkiBubencik" target="_blank">
+                <a href="https://github.com/nikkiBubencik" target="_blank" rel="noreferrer">
                     Github
                 </a>
-                <a href="https://www.linkedin.com/in/nicole-bubencik/" target='_blank'>
+                <a href="https://www.linkedin.com/in/nicole-bubencik/" target='_blank' rel="noreferrer">
                     LinkedIn
                 </a>
             </div>

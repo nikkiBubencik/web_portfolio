@@ -10,7 +10,7 @@ function EducationCard( props ){
                 return <h4 key={major.name}>{major.type}: {major.name}</h4>
             }))}
             { concentration !== "" &&
-                <h5>Concetnration: {concentration}</h5>
+                <h5>Concentration: {concentration}</h5>
             }
             { minor !== "" && 
                 <h5>Minor: {minor}</h5>

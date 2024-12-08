@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Header(){
     return (
-        <div className="header-content background">
+        <div id="top" className="header-content background">
             <h1>Nicole Bubencik</h1>
             <nav>
                 <ul>

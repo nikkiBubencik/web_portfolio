@@ -4,8 +4,8 @@
         "description": ["JavaScript allows you to access and manipulate the DOM to dynamically update the content and structure of a web page", 
             "You can access HTML elements using methods like getElementById(), getElementsByClassName(), getElementsByTagName(), and querySelector()",
             "You can change the text content, and modify CSS styles using style property or by adding/removing CSS classes",
-            "Allows for interactivity by adding event listners",
-            "See Form Section for an exanple"
+            "Allows for interactivity by adding event listeners",
+            "See Form Section for an example"
             ],
         "example": ""
     },
@@ -19,9 +19,9 @@
     },
     {
         "name": "Drag and Drop",
-        "description": ["Allows users to drag elemnts from one location to another",
-        "By seeting the elements draggable attribute to true allows the element to be dragged",
-        "Drag and drop feature has a few event listners including dragStart, dragEnd, dragOver, and drop"
+        "description": ["Allows users to drag elements from one location to another",
+        "By setting the elements draggable attribute to true allows the element to be dragged",
+        "Drag and drop feature has a few event listeners including dragStart, dragEnd, dragOver, and drop"
         ],
         "example": "DragDropExample"
     },
@@ -30,7 +30,7 @@
         "description": ["Technology used for creating graphics on the web",
             "Canvas provides a means to draw graphics via JavaScript on a 'pixel-based' canvas element",
             "SVG (Scalable Vector Graphics) allows for the creation of interactive and scalable graphics using XML, which can be easily manipulated and styled with JavaScript",
-            "SVG scale to any size without lose of clarity or quality"
+            "SVG scale to any size without loss of clarity or quality"
         ],
         "example": ""
     },
@@ -38,7 +38,7 @@
         "name": "GeoLocation",
         "description": [
             "Determines the real-world geographic location of a device",
-            "Determines location by GPS location, cellular network triangulation, WI-FI netwroking position, and IP address",
+            "Determines location by GPS location, cellular network triangulation, WI-FI networking position, and IP address",
             "The navigator.geolocation object contains the methods you use to request the device's geographic position"
         ],
         "example": "GeolocationExample"
@@ -56,7 +56,7 @@
         "name": "CSS Selectors",
         "description": [
             "Allows for styling of certain elements",
-            "Can select elemnts by tag, class, id, or attributes",
+            "Can select elements by tag, class, id, or attributes",
             "Pseudo classes can be used to define a special state of an element",
             "Pseudo-elements allow you  to add generated content before or after an element's existing content and style specific parts of an element"
         ],

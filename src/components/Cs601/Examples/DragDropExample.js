@@ -30,7 +30,6 @@ function DragDropExample() {
             (itemTag === 'non-living' && id === 'non-living')) {
             dropzone.appendChild(item);
         } else {
-            console.log('Wrong item, wrong category!');
             setErrorMessage("Wrong Category");
         }
     };
