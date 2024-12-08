@@ -8,8 +8,8 @@ function Project( {project} ){
             <p>Made With: {languages}</p>
             <p>{description}</p>
             <div className="project-links-container">
-                {(codeLink !== '') && <a href={codeLink} className="project-link">See Code</a>}
-                {(link !== '') && <a href={link} className="project-link">Project</a>}
+                {(codeLink !== '') && <a href={codeLink} target="_blank" className="project-link">See Code</a>}
+                {(link !== '') && <a href={link} target="_blank"className="project-link">Project</a>}
             </div>
             {(image !== '') && <p>{image}</p>}
             {/* <h2>{projectInfo.name}</h2> */}

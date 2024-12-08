@@ -9,7 +9,7 @@
     },
     {
         "name": "Checklist App (In Progress)",
-        "description": "The Application alsows users to create Checklists for various reasons like for shopping lists or a To Do list. Users can make and manage their lists and add and manage each item on the lsit.",
+        "description": "The Application allows users to create Checklists for various reasons like for shopping lists or a To Do list. Users can make and manage their lists and add and manage each item on the list.",
         "languages": "React",
         "codeLink": "",
         "link":  "",
@@ -39,7 +39,7 @@
         "link": "",
         "image": "" 
     },{
-        "name": "Studnet Loan Payoff Calculator",
+        "name": "Student Loan Payoff Calculator",
         "description": "his tool allows users to input their student loan information, including total amounts and interest rates. Users can choose their preferred repayment method and specify their contribution amount for each payment. The application generates a detailed repayment schedule, showing the timeline for paying off each loan and the date when each loan will be fully settled.",
         "languages": "Python",
         "codeLink": "https://github.com/nikkiBubencik/loan_calculator",
@@ -47,8 +47,8 @@
         "image": "" 
     },
     {
-        "name": "Plagerism Checker",
-        "description": " Collaborated with my team to create a plagerism checker that compares the execution time for the Rabin-Karp and Boyer-Moore algorithms. User can input the sepecified text and pattern files. If the plagerism percentage exceeds 70% the user is alerted.",
+        "name": "Plagiarism Checker",
+        "description": " Collaborated with my team to create a plagiarism checker that compares the execution time for the Rabin-Karp and Boyer-Moore algorithms. User can input the specified text and pattern files. If the llagiarism percentage exceeds 70% the user is alerted.",
         "languages": "C++",
         "codeLink": "https://github.com/nathyntran/CSC-212_Final_Project",
         "link": "",
@@ -56,25 +56,25 @@
     },
     {
         "name": "Tic-Tac-Toe",
-        "description": "This Tic Tac Toe game provides a classic 2-player experience where each player takes turns marking spots on a 3x3 grid. The objective is to be the first player to achieve 3 marks in a row (horizontally, vertically, or diagonally) or to fill the entire board without achieving a win condition, resulting in a draw.",
+        "description": "This Tic-Tac-Toe game provides a classic 2-player experience where each player takes turns marking spots on a 3x3 grid. The objective is to be the first player to achieve 3 marks in a row (horizontally, vertically, or diagonally) or to fill the entire board without achieving a win condition, resulting in a draw.",
         "languages": "Python",
-        "codeLink": "",
+        "codeLink": "https://github.com/nikkiBubencik/projects/blob/main/python/tic_tac_toe.py",
         "link": "",
         "image": "" 
     },
     {
-        "name": "Tock Paper Scissors",
+        "name": "Rock Paper Scissors",
         "description": "This Rock Paper Scissors game is implemented in Python and allows the player to compete against a computer opponent. The player selects their choice between rock, paper, or scissors, and the computer randomly selects its choice. The winner of each round is determined based on the classic rules of the game.",
         "languages": "Python",
-        "codeLink": "",
+        "codeLink": "https://github.com/nikkiBubencik/projects/blob/main/python/rock_paper_scissors.py",
         "link": "",
         "image": "" 
     },
     {
         "name": "Snake",
-        "description": "This Snake Game is built using the Pygame library in Python. It offers a classic arcade experience where players control a snake to eat food and grow longer while avoiding collisions with the walls and the snake's own body. This game has two different version easy or a hard mode where the snake moves faster around the board.",
+        "description": "This Snake Game is built using the Pygame library in Python. It offers a classic arcade experience where players control a snake to eat food and grow longer while avoiding collisions with the walls and the snake's own body. This game has two different version, easy or a hard mode, where the snake moves faster around the board.",
         "languages": "Python",
-        "codeLink": "",
+        "codeLink": "https://github.com/nikkiBubencik/projects/blob/main/python/Snake.py",
         "link": "",
         "image": "" 
     }
