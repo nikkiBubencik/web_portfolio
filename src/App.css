@@ -48,3 +48,15 @@ main{
     transform: rotate(360deg);
   }
 }
+
+.section-container{
+  width: 75%;
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  .section-container{
+    width: 95%;
+  }
+
+}

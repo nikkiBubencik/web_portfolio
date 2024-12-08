@@ -2,7 +2,7 @@ import './Resume.css'
 
 function EducationCard( props ){
     const { school, majors, minor, concentration, other } = props.education;
-    console.log(other);
+
     return (
         <div className="job-card">
             <h3>{school}</h3>

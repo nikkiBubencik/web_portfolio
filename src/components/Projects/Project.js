@@ -3,7 +3,7 @@ import './Projects.css';
 function Project( {project} ){
     const { name, languages, description, codeLink, link, image } = project;
     return (
-        <div className="projeect-card">
+        <div className="section-container">
             <h3>{name}</h3>
             <p>Made With: {languages}</p>
             <p>{description}</p>

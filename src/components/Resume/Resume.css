@@ -6,6 +6,7 @@
 
 .portfolio-links{
     display: flex;
+    flex-direction: row;
     gap: 15px;
     justify-content: center;
 }
@@ -46,4 +47,15 @@ section div{
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+}
+
+@media (max-width: 800px) {
+    .job-header{
+        flex-direction: column;
+    }
+
+    .job-header > * {
+        margin: 0px;
+    }
+
 }

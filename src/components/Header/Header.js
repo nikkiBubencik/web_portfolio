@@ -17,7 +17,7 @@ function Header(){
                         <Link className="nav-link" to="/resume">Resume</Link>
                     </li>
                     <li>
-                        <Link className="nav-link" to="/cs601">CSCS 601</Link>
+                        <Link className="nav-link" to="/cs601">CS 601</Link>
                     </li>
                     <li>
                         <Link className="nav-link" to="/photos">Photos</Link>

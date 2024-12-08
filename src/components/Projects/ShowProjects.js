@@ -23,10 +23,6 @@ function ShowProjects(){
 
     }, []);
 
-    useEffect(() => {
-        console.log(projectList)
-    }, [projectList]);
-
     return (
         <div>
             <h1 className="header-title"> Projects </h1> 

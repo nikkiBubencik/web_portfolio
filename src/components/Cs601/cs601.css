@@ -8,6 +8,8 @@
 
 .topic-list{
     list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .topic-list li::before{

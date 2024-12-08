@@ -24,12 +24,12 @@ function Cs601 (){
     }, []);
 
     return (
-        <div className="topic-container">
+        <div className="topic-container section-container">
             <h2 className="topic-header">Things I learned in CS 601</h2>
             <h3>Web Application Development Course at Boston University</h3>
             <div className='topic-subcontainer'>
                 {topics.map((topic, index) => {
-                    return <TopicCard topic={topic} />
+                    return <TopicCard topic={topic} key={index}/>
                     })
                 }
             </div>
