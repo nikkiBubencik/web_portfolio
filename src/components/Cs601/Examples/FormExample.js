@@ -33,7 +33,7 @@ function FormExample(){
                     onChange={(e) => setName(e.target.value)}
                 /><br />
                 <label>Pick a color:
-                <label>
+                <br/><label>
                     <input 
                         type="radio" 
                         name="color" 

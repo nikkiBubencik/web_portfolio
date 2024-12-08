@@ -13,3 +13,5 @@ This site was created for my Web Application Development course at BU and is a p
 •	Document Object Model (DOM)
 •	Website usability
 •	Project management for web design and development
+
+Deployed using netlify: https://nicolebubencikportfolio.netlify.app/
