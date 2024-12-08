@@ -45,22 +45,40 @@
     },
     {
         "name": "Flexbox and Grid Layout",
-        "description": [],
+        "description": [
+            "CSS layout techniques for a responsive design",
+            "Flexbox is a one-directional layout and operates on a container-item relationship",
+            "Grid layout is a two-dimensional layout system that provides an easy and clean complex layouts with rows and columns"
+        ],
         "example": ""
     },
     {
         "name": "CSS Selectors",
-        "description": [],
+        "description": [
+            "Allows for styling of certain elements",
+            "Can select elemnts by tag, class, id, or attributes",
+            "Pseudo classes can be used to define a special state of an element",
+            "Pseudo-elements allow you  to add generated content before or after an element's existing content and style specific parts of an element"
+        ],
         "example": ""
     },
     {
         "name": "TypeScript",
-        "description": [],
+        "description": [
+            "Builds on JavaScript by adding static type definitions",
+            "At compile time TypeScript Compiler performs static type checking to catch type errors",
+            "TypeScript helps with early error detection, enhanced editor support, improved readability and maintainability, scalability, and more",
+            "TypeScript adds features including enums, interfaces, and tuples"
+        ],
         "example": ""
     },
     {
         "name": "React",
-        "description": [],
+        "description": [
+            "React is a JavaScript library and has a component-based architecture",
+            "React can only directly perform unidirection data flow from pareent to child components",
+            "React first updates the Virtual Dom before comparing it to the pre-update version and determines the best way to apply these changes to the real DOM"
+        ],
         "example": ""
     }
 
