@@ -6,9 +6,13 @@
     background-color: rgb(148, 208, 228);
 }
 
-ul{
-    list-style-type: circle;
-    justify-content:left;
+.topic-list{
+    list-style-type: none;
+}
+
+.topic-list li::before{
+    content: '\2022';
+    margin-right: 5px;
 }
 
 .topic-header{

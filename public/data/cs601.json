@@ -27,13 +27,21 @@
     },
     {
         "name": "Canvas and SVG",
-        "description": [],
+        "description": ["Technology used for creating graphics on the web",
+            "Canvas provides a means to draw graphics via JavaScript on a 'pixel-based' canvas element",
+            "SVG (Scalable Vector Graphics) allows for the creation of interactive and scalable graphics using XML, which can be easily manipulated and styled with JavaScript",
+            "SVG scale to any size without lose of clarity or quality"
+        ],
         "example": ""
     },
     {
-        "name": "GeoLovcation",
-        "description": [],
-        "example": "GeoLovcationExample"
+        "name": "GeoLocation",
+        "description": [
+            "Determines the real-world geographic location of a device",
+            "Determines location by GPS location, cellular network triangulation, WI-FI netwroking position, and IP address",
+            "The navigator.geolocation object contains the methods you use to request the device's geographic position"
+        ],
+        "example": "GeolocationExample"
     },
     {
         "name": "Flexbox and Grid Layout",

@@ -2,13 +2,15 @@ import './cs601.css';
 import FormExample from './Examples/FormExample';
 import { useState } from 'react';
 import DragDropExample from './Examples/DragDropExample';
+import GeolocationExample from './Examples/GeolocationExample';
 
 function TopicCard( props ){
     const [seeExample, setSeeExample] = useState(false);
     const { name, description, example } = props.topic;
     const exampleMap = {
         FormExample: <FormExample />,
-        DragDropExample: <DragDropExample />
+        DragDropExample: <DragDropExample />,
+        GeolocationExample: <GeolocationExample />
     }
     function handleSeeExampleChange(){
         setSeeExample(!seeExample);
@@ -17,7 +19,7 @@ function TopicCard( props ){
     return (
         <div className="learner-card">
             <h4>{name}</h4>
-            <ul>
+            <ul className='topic-list'>
                 {description.map((line, index) => (
                     <li key={index}>{line}</li>
                 ))}
