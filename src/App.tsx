@@ -13,7 +13,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <Header />
-      <main>
+      <main className='section-container'>
         <Routes>
           <Route path="/" element={<Home />} />         
           <Route path="/projects" element={<ShowProjects />} />

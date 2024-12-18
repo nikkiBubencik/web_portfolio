@@ -25,7 +25,7 @@ const ShowProjects: React.FC = () => {
     }, []);
 
     return (
-        <div>
+        <div className="project-page">
             <h1 className="header-title page-layout"> Projects </h1> 
 
             <div className="project-container page-layout">

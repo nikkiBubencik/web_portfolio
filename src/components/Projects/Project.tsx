@@ -8,7 +8,7 @@ interface ProjectProps{
 const Project: React.FC<ProjectProps> = ( {project} ) => {
     const { name, languages, description, codeLink, link, image } = project;
     return (
-        <div className="section-container">
+        <div className="project-item">
             <h3>{name}</h3>
             <p>Made With: {languages}</p>
             <p>{description}</p>
