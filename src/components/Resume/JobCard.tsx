@@ -1,5 +1,11 @@
 import './Resume.css';
-function JobCard( props ){
+import { JobInterface } from './ResumeTypes';
+
+interface JobCardProps {
+    job: JobInterface;
+}
+
+const JobCard: React.FC<JobCardProps> = ( props ) => {
     const { title, company, location, when, description } = props.job;
 
     return(
@@ -13,7 +19,7 @@ function JobCard( props ){
                 <h4>{when}</h4>
             </div>
             <ul>
-                {description.map((desc, index) => {
+                {description.map((desc: string, index: number) => {
                     return <li key={index}>{desc}</li>
                 })
                 }

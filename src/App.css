@@ -6,7 +6,13 @@
 }
 
 html{
-  background-color: lightblue;
+  /* background-color: lightblue; */
+  margin: 0;
+  background-image: url('../public/images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
 }
 
 main{
@@ -52,6 +58,13 @@ main{
 .section-container{
   width: 75%;
   margin: auto;
+}
+
+.page-layout{
+  background-color: lightblue;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 800px) {

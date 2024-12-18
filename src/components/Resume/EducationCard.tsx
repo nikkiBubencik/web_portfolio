@@ -1,6 +1,11 @@
 import './Resume.css'
+import { SchoolInterface } from './ResumeTypes';
 
-function EducationCard( props ){
+interface SchoolCardProps{
+    education: SchoolInterface
+}
+
+const EducationCard: React.FC<SchoolCardProps> =( props ) =>{
     const { school, majors, minor, concentration, other } = props.education;
 
     return (

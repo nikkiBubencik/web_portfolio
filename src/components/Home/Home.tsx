@@ -1,9 +1,9 @@
 import './Home.css';
 import { Link } from 'react-router-dom';
 
-function Home(){
+const Home: React.FC = () => {
     return (
-        <div className="home-page section-container">
+        <div className="home-page section-container page-layout">
             <h1>Nicole Bubencik</h1>
             <div>
                 <h2>About Me</h2>

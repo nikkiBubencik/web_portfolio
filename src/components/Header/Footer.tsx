@@ -1,6 +1,6 @@
 import './Header.css';
 
-function Footer(){
+const Footer: React.FC = () => {
     return(
         <div className="footer-content background">
             <a href="#top" className='back-to-top'>Back to Top</a>

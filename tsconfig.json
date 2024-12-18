@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es2015"],
+    "jsx": "react-jsx", // Use the new JSX transform for React 17 and above
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // To import non-ES modules (like some commonjs modules)
+    "skipLibCheck": true // Skip type checking of declaration files for faster builds
+  },
+  "include": ["src"]
+}

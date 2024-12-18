@@ -2,11 +2,12 @@ import './Resume.css';
 import JobCard from './JobCard';
 import { useState, useEffect } from 'react';
 import EducationCard from './EducationCard';
+import { JobInterface, SchoolInterface } from './ResumeTypes';
 
-function Resume( props ){
-    const [jobs, setJobs] = useState([]);
-    const [education, setEducation] = useState([]);
-    const [skills, setSkills] = useState([]);
+const Resume: React.FC = ( ) => {
+    const [jobs, setJobs] = useState<JobInterface[]>([]);
+    const [education, setEducation] = useState<SchoolInterface[]>([]);
+    const [skills, setSkills] = useState<string[]>([]);
 
     useEffect(() => {
         async function getData () {
@@ -30,34 +31,34 @@ function Resume( props ){
 
     return (
         <div className="resume-container">
-            <h2>My Resume</h2>
-            <section>
+            <h2 className="page-layout">My Resume</h2>
+            <section className="page-layout">
                 <h3>Work Experience</h3>
                 <div>
-                    {jobs.map((job, index) => {
+                    {jobs.map((job: JobInterface, index: number) => {
                         return <JobCard job={job} key={index}/>
                     })}
                 </div>
             </section>
 
-            <section>
+            <section className='page-layout'>
                 <h3>Education</h3>
                 <div className="education-skill-container">
-                    {education.map((school, index) => {
+                    {education.map((school: SchoolInterface, index: number) => {
                         return <EducationCard education={school} key={index}/>
                     })}
                 </div>
             </section>
-            <section>
+            <section className='page-layout'>
                 <h3>Skills</h3>
                 <div className="education-skill-container">    
-                    {skills.map((skill, index) => {
+                    {skills.map((skill: string, index: number) => {
                         return <p key={index} className="job-card">{skill}</p>
                     })}
                 </div>
             </section>
             
-            <div className="portfolio-links">
+            <div className="portfolio-links page-layout">
                 <a href="images/Nicole_Bubencik.jpg" download>
                     Download Resume
                 </a>

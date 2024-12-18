@@ -1,9 +1,10 @@
-import { React, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './Projects.css';
 import Project from './Project';
+import { ProjectInterface } from './ProjectTypes';
 
-function ShowProjects(){
-    const [projectList, setProjectList] = useState([]);
+const ShowProjects: React.FC = () => {
+    const [projectList, setProjectList] = useState<ProjectInterface[]>([]);
 
     useEffect(() => {
         async function getProjects () {
@@ -25,10 +26,10 @@ function ShowProjects(){
 
     return (
         <div>
-            <h1 className="header-title"> Projects </h1> 
+            <h1 className="header-title page-layout"> Projects </h1> 
 
-            <div className="project-container">
-                {projectList.map((project, index) => (
+            <div className="project-container page-layout">
+                {projectList.map((project: ProjectInterface, index: number) => (
                     <Project project={project} key={index}/>
                     ))
                 }

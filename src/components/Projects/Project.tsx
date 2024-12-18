@@ -1,6 +1,11 @@
 import './Projects.css';
+import { ProjectInterface } from './ProjectTypes';
 
-function Project( {project} ){
+interface ProjectProps{
+    project: ProjectInterface
+}
+
+const Project: React.FC<ProjectProps> = ( {project} ) => {
     const { name, languages, description, codeLink, link, image } = project;
     return (
         <div className="section-container">

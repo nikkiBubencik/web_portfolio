@@ -1,7 +1,12 @@
 import './PhotoGallery.css';
 
-function PhotoGallery(){
-    const images=[
+interface PhototInterface{
+    path: string,
+    alt: string
+}
+
+const PhotoGallery: React.FC = () => {
+    const images: PhototInterface[] =[
         {path: "IMG_5264.JPG", alt: "Family photo at Zion Nation Park"},
         {path: "IMG_9682.jpeg", alt:"Scenic view at Zion National Park"},
         {path: "IMG_6966.JPG", alt: "Tha narrows Trail with over waist deep water"},
@@ -24,7 +29,7 @@ function PhotoGallery(){
         <div className="photo-gallery">
             <h2>Photo Gallery</h2>
             <div className="gallery-container">
-                {images.map(image => {
+                {images.map((image: PhototInterface) => {
                     return (<div className="gallery-item" key={image.path}>
                         <img src={`images/${image.path}`} alt={image.alt} />
                     </div>)
