@@ -27,7 +27,7 @@ const PhotoGallery: React.FC = () => {
     ];
     return(
         <div className="photo-gallery">
-            <h2>Photo Gallery</h2>
+            <h2 className='page-layout'>Photo Gallery</h2>
             <div className="gallery-container">
                 {images.map((image: PhototInterface) => {
                     return (<div className="gallery-item" key={image.path}>

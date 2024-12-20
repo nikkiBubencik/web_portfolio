@@ -10,7 +10,12 @@ const Project: React.FC<ProjectProps> = ( {project} ) => {
     return (
         <div className="project-item">
             <h3>{name}</h3>
-            <p>Made With: {languages}</p>
+            <p>Made With: {languages.map((lang: string, index: number) =>
+                    index === languages.length - 1 ? 
+                        lang
+                        : `${lang}, `
+                )}
+            </p>
             <p>{description}</p>
             <div className="project-links-container">
                 {(codeLink !== '') && <a href={codeLink} target="_blank" rel="noreferrer" className="project-link">See Code</a>}

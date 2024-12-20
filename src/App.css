@@ -67,6 +67,10 @@ main{
   margin-bottom: 20px;
 }
 
+.project-page-container{
+  width: 95%;
+}
+
 @media (max-width: 800px) {
   .section-container{
     width: 95%;

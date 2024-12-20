@@ -30,7 +30,7 @@ const Resume: React.FC = ( ) => {
     }, []);
 
     return (
-        <div className="resume-container">
+        <div className="section-container resume-container">
             <h2 className="page-layout">My Resume</h2>
             <section className="page-layout">
                 <h3>Work Experience</h3>

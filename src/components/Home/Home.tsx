@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
     return (
-        <div className="home-page page-layout">
+        <div className=" section-container home-page page-layout">
             <h1>Nicole Bubencik</h1>
             <div>
                 <h2>About Me</h2>
