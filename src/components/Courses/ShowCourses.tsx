@@ -49,8 +49,8 @@ const ShowCourses: React.FC = () => {
             )
             )
         }
-    }, [showCourse, courseList])
-
+    }, [showSchool, courseList])
+    
     function addSchool(newSchool: string): void {
         setShowSchool(prevList => [...prevList, newSchool])
     }

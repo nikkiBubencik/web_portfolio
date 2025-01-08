@@ -1,5 +1,11 @@
 [
     {
+        "code": "MET CS 602",
+        "title": "Server-Side Web Development",
+        "school":"Boston University",
+        "description": "The Server-Side Web Development course concentrates primarily on building full stack applications using the state of the art tools and frameworks. The course is divided into various modules covering in depth the following topics: NodeJS, Express, React, MongoDB, Mongoose ODM, Sequelize ORM, REST and GraphQL APIs, and application security. Along with the fundamentals underlying these technologies, several applications will be showcased as case studies. Students work with these technologies starting with simple applications and then examining real world complex applications. At the end of this course, students would have mastered developing the full stack applications using the MERN stack and related technologies."
+    },
+    {
         "code": "MET CS 601",
         "title": "Web Application Development",
         "school": "Boston University",
