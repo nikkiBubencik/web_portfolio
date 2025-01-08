@@ -27,7 +27,7 @@ const Sidebar: React.FC<sidebarInterface> = ( {languages, addLanguage, deleteLan
             {/* <div className='non-shown-langs'> */}
             <form name="choose-languages">
                 {languages.map((lang: string, index: number) => {
-                    return <>
+                    return <div key={index}>
                         <label htmlFor={lang}>{lang}
                             <input 
                                 key={index}
@@ -37,15 +37,9 @@ const Sidebar: React.FC<sidebarInterface> = ( {languages, addLanguage, deleteLan
                             />
                             </label>
                             <br />
-                        </>
+                        </div>
                 })}
             </form>
-            {/* </div>
-            <div className="show-langs">
-                {showLanguages.map((lang: string, index: number) => {
-                    return <p key={index}>{lang}</p>
-                })}
-            </div> */}
         </aside>
     )
 }

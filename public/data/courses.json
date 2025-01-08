@@ -1,0 +1,206 @@
+[
+    {
+        "code": "MET CS 601",
+        "title": "Web Application Development",
+        "school": "Boston University",
+        "description": "Learn essential front-end development skills, starting with foundational JavaScript techniques, such as DOM manipulation and event handling, and advancing to interactive web technologies like HTML's Drag and Drop, Canvas, and SVG. You will be exposed to asynchronous operations, including AJAX, the Fetch API, and Web Workers, and learn to craft responsive designs using Flexbox, CSS Grid, and advanced CSS selectors. A comprehensive exploration of TypeScript and its main feature, static typing, and capabilities will also be covered.  The course concludes with a comprehensive dive into ReactJS, covering its core architectural concepts, component-based structure, and state management techniques"
+    },
+    {
+        "code": "MET CS 521",
+        "title": "Information Structures with Python",
+        "school": "Boston University",
+        "description": "This course covers the concepts of the object-oriented approach to software design and development using Python. It includes a detailed discussion of programming concepts starting with the fundamentals of data types, control structures methods, classes, arrays and strings, and proceeding to advanced topics such as inheritance and polymorphism, creating user interfaces, exceptions and streams. Upon completion of this course students will be able to apply software engineering principles to design and implement Python applications that can be used in with analytics and big data."
+    },
+    {
+        "code": "CSF 202",
+        "title": "Fundamentals for Cyber Security",
+        "school": "University of Rhode Island",
+        "description": "Overview of technical background required for cyber security. Including: binary/hex number systems, operating systems concepts and installation, Python, file systems, OSI model, network topologies and protocols."
+    },
+    {
+        "code": "CSC 440",
+        "title": "Design and Analysis of Algorithms",
+        "school": "University of Rhode Island",
+        "description": "Algorithm design and analysis, advanced data structures, computational complexity. Sorting, searching including hashing and balanced trees, string pattern matching, polynomial and matrix calculations, graph and network algorithms, NP-completeness and intractability."
+    },
+    {
+        "code": "CSC 436",
+        "title": "Database Management Systems",
+        "school": "University of Rhode Island",
+        "description": "Construction and management of large data systems. Data modeling, relational and object-oriented systems, main memory databases, query languages, query optimization, concurrency control, transaction management, distributed systems, disk organization, indexes, and emerging technologies."
+    },
+    {
+        "code": "CSC 412",
+        "title": "Operating Systems and Networks",
+        "school": "University of Rhode Island",
+        "description": "General concepts underlying operating systems and computer networks. Topics include process management, concurrency, scheduling, memory management, information management, protection and security, modeling and performance, networking and communication."
+    },
+    {
+        "code": "CSC 411",
+        "title": "Computer Organization",
+        "school": "University of Rhode Island",
+        "description": "Logical structure of computer systems viewed as a hierarchy of levels. Assembly language programming, assemblers, linkers, loaders. Computer architecture including digital logic, processor organization, instruction sets, addressing techniques, virtual memory, microprogramming."
+    },
+    {
+        "code": "CSC 402",
+        "title": "Programming Language Implementation",
+        "school": "University of Rhode Island",
+        "description": "Grammars and languages; lexical analysis and parsers; interpreters, translators, and virtual machines; symbol tables and type systems; code generation for real and virtual machines. Students will implement a number of interpreters, translators, and virtual machines for various small languages."
+    },
+    {
+        "code": "CsC 340",
+        "title": "Applied Combinatorics",
+        "school": "University of Rhode Island",
+        "description": "Combinatorial problem-solving for computer science. Set theory and logic, proofs by induction and contradiction, elementary probability; arrangements, selections, distributions, binomials, inclusion-exclusion; recurrence relations and their solution; graph theory, trees, networks."
+    },
+    {
+        "code": "CSC 310",
+        "title": "Programming for Data Science",
+        "school": "University of Rhode Island",
+        "description": "Data driven programming; data sets, file formats and meta-data; descriptive statistics, data visualization, and foundations of predictive data modeling; accessing web data and data bases; distributed data management."
+    },
+    {
+        "code": "CSC 305",
+        "title": "Software Engineering",
+        "school": "University of Rhode Island",
+        "description": "Programming environments and methodologies for the design, development, testing, and maintenance of large software systems. Student teams will develop a substantial software product from requirements to delivery using disciplined techniques."
+    },
+    {
+        "code": "CSC 301",
+        "title": "Fundamentals of Programming Languages",
+        "school": "University of Rhode Island",
+        "description": "Organization of programming languages, data and control structures, syntax and semantics, compilers and interpreters. Block structured languages, recursion, parameter passing, run-time storage management. Procedural, functional, object-oriented, and logical languages."
+    },
+    {
+        "code": "CSC 212",
+        "title": "Data Structures and Abstractions",
+        "school": "University of Rhode Island",
+        "description": "Abstract data types and data structures. Pointers, linked lists, stacks, queues, binary trees, and tables. Fundamentals of software engineering. Development of object-oriented programming techniques."
+    },
+    {
+        "code": "CSC 211",
+        "title": "Computer Programming",
+        "school": "University of Rhode Island",
+        "description": "Problem specification, solution design, and algorithm development. Topics may include data types, functions, iteration, recursion, object-oriented programming, built-in data structures, file operations, numerical and string-based operations."
+    },
+    {
+        "code": "CSC 110",
+        "title": "Survey of Computer Science",
+        "school": "University of Rhode Island",
+        "description": "Broad introduction to computer science, with an emphasis on problem solving. Algorithm discovery. Algorithm analysis. Algorithmic solutions to problem in various sub-fields including operating systems, digital forensics, computer graphics, artificial intelligence, and bioinformatics."
+    },
+    {
+        "code": "CSC 106",
+        "title": "The Joy of Programming",
+        "school": "University of Rhode Island",
+        "description": "The art of problem solving through computer programming. Students explore innovative and cutting edge applications that may include mobile apps, multimedia, computer games, puzzles, robotics, graphics and animation, social networking, physical computing."
+    },
+    {
+        "code": "MTH 451",
+        "title": "Introduction to Probability and Statistics",
+        "school": "University of Rhode Island",
+        "description": "Theoretical basis and fundamental tools of probability and statistics. Probability spaces, properties of probability, distributions, expectations, some common distributions and elementary limit theorems."
+    },
+    {
+        "code": "MTH 442",
+        "title": "Introduction to Difference Equations",
+        "school": "University of Rhode Island",
+        "description": "Introduction to linear and nonlinear difference equations; basic theory, z-transforms, stability analysis, and applications."
+    },
+    {
+        "code": "MTH 435",
+        "title": "Mathematical Analysis and Topology I",
+        "school": "University of Rhode Island",
+        "description": "The first of two courses providing rigorous introduction to mathematical analysis (theory of calculus) and metric space topology as a basis for advanced work in mathematics."
+    },
+    {
+        "code": "MTH 316",
+        "title": "Algebra",
+        "school": "University of Rhode Island",
+        "description": "The first of two courses providing rigorous introduction to mathematical analysis (theory of calculus) and metric space topology as a basis for advanced work in mathematics."
+    },
+    {
+        "code": "MTH 307",
+        "title": "Introduction to Mathematical Rigor",
+        "school": "University of Rhode Island",
+        "description": "Introduction to the language of rigorous mathematics: logic, set theory, functions and relations, cardinality, induction, methods of proof. Emphasis on precise written and oral presentation of mathematical arguments."
+    },
+    {
+        "code": "MTH 244",
+        "title": "Differential Equations",
+        "school": "University of Rhode Island",
+        "description": "Classification and solution of differential equations involving one independent variable. Applications to the physical sciences. Basics for further study in applied mathematics and for advanced work in physics and engineering."
+    },
+    {
+        "code": "MTH 243",
+        "title": "Calculus for Functions of Several Variables",
+        "school": "University of Rhode Island",
+        "description": "Topics include coordinates for space, vector geometry, partial derivatives, directional derivatives, extrema, Lagrange multipliers, and multiple integrals."
+    },
+    {
+        "code": "MTH 215",
+        "title": "Introduction to Linear Algebra",
+        "school": "University of Rhode Island",
+        "description": "Detailed study of finite dimensional vector spaces, linear transformations, matrices, determinants and systems of linear equations."
+    },
+    {
+        "code": "MTH 180",
+        "title": "Mathematical Tools for Computing",
+        "school": "University of Rhode Island",
+        "description": "Introduction to mathematical tools and to formal methods of reasoning for computing. Topics include propositional logic, proofs, elementary number theory, counting, graphs, and linear algebra. Emphasis on applications to computing."
+    },
+    {
+        "code": "MTH 142",
+        "title": "Calculus 2",
+        "school": "University of Rhode Island",
+        "description": "Continues the study of calculus for the elementary algebraic and transcendental functions of one variable. Topics include the techniques of integration, improper integrals, application in physics, and calculus using polar coordinates."
+    },
+    {
+        "code": "ACC 201",
+        "title": "Financial Accounting",
+        "school": "University of Rhode Island",
+        "description": "Basic concepts and systems used in financial accounting for business organizations."
+    },
+    {
+        "code": "ECN 201",
+        "title": "Principles of Economics: Microeconomics",
+        "school": "University of Rhode Island",
+        "description": "Principles underlying resource allocation, production, and income distribution in a market economy. Topics include demand and supply, consumer behavior, firm behavior, market structure, and elementary welfare analysis. Institutional foundations explored."
+    },
+    {
+        "code": "INE 140G",
+        "title": "The Power of Business",
+        "school": "University of Rhode Island",
+        "description": "Nature, philosophy, objectives, and scope of the American business system. Emphasis on the interrelations of the functional areas."
+    },
+    {
+        "code": "INE 149",
+        "title": "Introduction to Entrepreneurship",
+        "school": "University of Rhode Island",
+        "description": "This introductory course to provide students with broad knowledge of the skills and competencies that are essential to entrepreneurs, intrapreneurs and other innovators in bridging the divide from idea to business."
+    },
+    {
+        "code": "INE 247",
+        "title": "Business of Innovation: the Design Process",
+        "school": "University of Rhode Island",
+        "description": "In the context of entrepreneurship and intrapreneurship, students will learn practical skills that promote efficient and effective creative design, understand the creative design process and develop strategies through design thinking."
+    },
+    {
+        "code": "MGT 201",
+        "title": "Management Foundations: Building Better Businesses",
+        "school": "University of Rhode Island",
+        "description": "Management concepts, processes and practices with an emphasis on inclusion, agility and evidence based decision making: organizational behavior; individual differences and elements of diversity; interpersonal dynamics and communication; work design, motivation and outcomes; social justice and worker voice; structure (including business functions) and culture."
+    },
+    {
+        "code": "WRT 332",
+        "title": "Technical Writing",
+        "school": "University of Rhode Island",
+        "description": "Work on writing projects that suit practical needs, share specialized knowledge with diverse audiences, and implement ethical practices of technical communication."
+    },
+    {
+        "code": "FLM 101",
+        "title": "Introduction to Film Media",
+        "school":"University of Rhode Island",
+        "description": "Introduction to techniques of film practice, film history, genres, analysis of film texts, and reading of film images in their aesthetic, cultural, and literary context."
+    }
+]

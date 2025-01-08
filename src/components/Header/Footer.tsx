@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
                     <img src='images/icons/email.png' alt="My Email: nikkibubencik@gmail.com" title='nikkibubencik@gmail.com' className="icon"/>
                 </a>
             </div>
-            <p id="copyright">2024 Nicole Bubencik</p>
+            <p id="copyright">2025 Nicole Bubencik</p>
         </div>
     )
 }

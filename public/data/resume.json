@@ -13,7 +13,7 @@
             "title": "IT Intern",
             "company": "Eagle Stainless Tube & Fabrication",
             "location": "Franklin, MA",
-            "when": "Summer 2023, Winter 2024",
+            "when": "Summer 2023 and Winter 2024",
             "description": ["Developed custom forms and reports using Microsoft Access, SQL, and VBA, streamlining data management processes and enhancing data accessibility",
                 "Optimized application performance by refactoring and streamlining code, resulting in an improvement in business operations",
                 "Assisted with the transition to new software by setting up employee accounts, onboarding users, and providing ongoing support, resulting in smoother operational workflows"]
@@ -24,14 +24,12 @@
             "school": "Boston University",
             "majors": [
                 {"name":"Computer Information Systems",
-                "type": "Masters of Science"
+                "type": "Master of Science"
                 }
             ],
             "minor": "",
             "concentration": "Web Application Development",
-            "other": ["Expected Graduation: May 2026",
-                "GPA: 4.0"    
-            ]
+            "other": ["Expected Graduation: May 2026"]
         },
         {
             "school": "University of Rhode Island",
@@ -43,7 +41,7 @@
             ],
             "minor": "General Business",
             "concentration": "",
-            "other": ["Magna Cum Laude"]
+            "other": ["Graduated Magna Cum Laude"]
         }
     ],
     "skills": [

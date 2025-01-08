@@ -6,7 +6,7 @@ import Footer from './components/Header/Footer';
 import ShowProjects from './components/Projects/ShowProjects';
 import Resume from './components/Resume/Reseume';
 import NotFound from './components/NotFound';
-import PhotoGallery from './components/PhotoGallery/PhotoGallery';
+import ShowCourses from './components/Courses/ShowCourses';
 import { Routes, Route} from 'react-router-dom';
 
 const App: React.FC = () => {
@@ -18,7 +18,7 @@ const App: React.FC = () => {
           <Route path="/" element={<Home />} />         
           <Route path="/projects" element={<ShowProjects />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/photos" element={<PhotoGallery />} />
+          <Route path="/courses" element={<ShowCourses />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

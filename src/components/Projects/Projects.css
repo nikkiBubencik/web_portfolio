@@ -10,7 +10,7 @@
     content: "\2192";
 }
 .project-item:hover{
-    background-color: rgb(148, 208, 228);
+    background-color: rgb(112, 199, 235);
     border-radius: 10px;
     padding: 10px;
 }
@@ -34,6 +34,8 @@
     margin: 5px;
 }
 
-#main-project div{
-    flex-grow: 1;
+@media (max-width: 550px){
+    #main-project{
+        grid-template-columns: 1fr;
+    }    
 }
