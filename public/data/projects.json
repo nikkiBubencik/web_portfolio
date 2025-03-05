@@ -1,5 +1,13 @@
 [
     {
+        "name": "Shopping Cart Application",
+        "description": "This application was created as my Server-Side Web Development course and simulates a shopping cart for a merchant's website. Users can view, search, and sort products by name, description, or price, and add items to their cart. They can place orders and view previous purchases. Admins have all user capabilities plus the ability to add, delete, or update products, and manage user orders. Admins can edit orders by adding/removing products or deleting them. The app checks stock availability when adding items to a cart or order. It supports REST APIs and GraphQL endpoints for products, users, and orders. PassportJS is used for customer registration and authentication.",
+        "languages": ["NodeJS", "MongoDB", "GraphQL", "PassportJS"],
+        "codeLink": "",
+        "link": "",
+        "image": "" 
+    },
+    {
         "name": "Visitor Management",
         "description": "The Visitor Management System is a web application developed using React for the frontend, Python with Flask for the backend, and Excel for data storage. It provides a streamlined process for visitors to sign in, generate a visitor badge, and sign out upon departure. The system maintains visitor records in an Excel spreadsheet, updating entries dynamically as visitors sign in and out.",
         "languages": ["React", "Python", "Flask", "CSS"],
