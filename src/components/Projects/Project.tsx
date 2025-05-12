@@ -10,7 +10,7 @@ const Project: React.FC<ProjectProps> = ( {project} ) => {
     return (
         <div className="project-item">
             <h3>{name}</h3>
-            <p>Made With: {languages.map((lang: string, index: number) =>
+            <p>Tech Stack: {languages.map((lang: string, index: number) =>
                     index === languages.length - 1 ? 
                         lang
                         : `${lang}, `
