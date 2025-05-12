@@ -1,5 +1,13 @@
 [
     {
+        "name": "Reading List Management System",
+        "description": "For my Rich Internet Application Development term project, I built a full-featured Angular web application to manage personal reading lists. The app integrates the Open Library API to retrieve book metadata, supports full CRUD functionality using localStorage, and features responsive components for book search, details, reviews, and status tracking. Users can also create and manage multiple custom reading lists.",
+        "languages": ["Angular", "TypeScript", "HTML5", "CSS", "Open Library API", "LocalStorage"],
+        "codeLink": "https://github.com/nikkiBubencik/CS701_project",
+        "link": "",
+        "image": "" 
+    },
+    {
         "name": "Shopping Cart Application",
         "description": "This application was created as my Server-Side Web Development term project and simulates a shopping cart for a merchant's website. Users can view, search, and sort products by name, description, or price, and add items to their cart. They can place orders and view previous purchases. Admins have all user capabilities plus the ability to add, delete, or update products, and manage user orders. Admins can edit orders by adding/removing products or deleting them. The app checks stock availability when adding items to a cart or order. It supports REST APIs and GraphQL endpoints for products, users, and orders. PassportJS is used for customer registration and authentication.",
         "languages": ["NodeJS", "MongoDB", "GraphQL", "PassportJS"],
