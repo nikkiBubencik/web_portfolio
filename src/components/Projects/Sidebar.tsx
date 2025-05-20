@@ -22,7 +22,7 @@ const Sidebar: React.FC<sidebarInterface> = ( {languages, addLanguage, deleteLan
     }
 
     return (
-        <aside className='page-layout'>
+        <aside className='page-layout project-sidebar'>
             <h3>Filter Projects</h3>
             {/* <div className='non-shown-langs'> */}
             <form name="choose-languages">
