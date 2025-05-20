@@ -1,3 +1,10 @@
+.job-desc{
+    list-style-position: inside;
+    text-align: center;
+    padding-left: 0;
+    margin: 0 auto;
+}
+
 .resume-image{
     width: 80ch;
     max-width: 100%;
@@ -17,7 +24,7 @@
 
 .job-header{
     display: grid;
-    grid-templete-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
 /*     display: flex;
     justify-content: space-between; */
     padding: 20px;
