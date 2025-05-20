@@ -3,4 +3,5 @@ export interface courseInterface{
     title: string;
     school: string,
     description: string,
+    github?: string
 }
