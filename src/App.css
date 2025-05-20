@@ -6,12 +6,12 @@
 }
 
 html{
-  /* background-color: lightblue; */
+  background-color: #F5F5F5;
   margin: 0;
-  background-image: url('../public/images/background.jpg');
+  /* background-image: url('../public/images/background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
   height: 100%;
 }
 
@@ -61,7 +61,7 @@ main{
 }
 
 .page-layout{
-  background-color: skyblue;
+  background-color: #E0E7FF;
   padding: 15px;
   border-radius: 15px;
   margin-bottom: 20px;
