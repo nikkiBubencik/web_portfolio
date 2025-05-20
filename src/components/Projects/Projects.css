@@ -15,6 +15,9 @@
     padding: 10px;
     color: white;
 }
+.project-item a:hover {
+    color: white;
+}
 .project-sidebar{
     border: 1px solid #362DE1;
 }
