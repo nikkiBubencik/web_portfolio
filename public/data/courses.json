@@ -9,7 +9,8 @@
         "code": "MET CS 701",
         "title": "Rich Internet Application Development",
         "school":"Boston University",
-        "description": "The Rich Internet Application (RIA) Development course concentrates primarily on building rich client web applications in the browser for desktop and mobile devices. The course is divided into various modules covering in depth the following technologies: HTML5, AngularJS, and Ionic framework. Along with the fundamentals underlying these technologies, several applications will be showcased as case studies. Students work with these technologies starting with simple applications and then examining real world complex applications. At the end of this course, students would have mastered the latest and widely used RIA methodologies."
+        "description": "The Rich Internet Application (RIA) Development course concentrates primarily on building rich client web applications in the browser for desktop and mobile devices. The course is divided into various modules covering in depth the following technologies: HTML5, AngularJS, and Ionic framework. Along with the fundamentals underlying these technologies, several applications will be showcased as case studies. Students work with these technologies starting with simple applications and then examining real world complex applications. At the end of this course, students would have mastered the latest and widely used RIA methodologies.",
+        "github": "https://github.com/nikkiBubencik/CS701_HW"
     },
     {
         "code": "MET CS 602",
