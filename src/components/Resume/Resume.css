@@ -27,7 +27,7 @@
     grid-template-columns: 1fr 2fr 1fr;
 /*     display: flex;
     justify-content: space-between; */
-    padding: 20px;
+    padding: 10px;
 }
 
 .job-card{
@@ -54,9 +54,11 @@ section div{
 }
 
 @media (max-width: 800px) {
-/*     .job-header{
+    .job-header{
+        display: flex;
+        justify-content: space-between;
         flex-direction: column;
-    } */
+    }
 
     .job-header > * {
         margin: 0px;
