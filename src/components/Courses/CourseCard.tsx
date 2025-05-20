@@ -6,13 +6,16 @@ interface CourseProps{
 }
 
 const CourseCard: React.FC<CourseProps> = ( {course} ) => {
-    const { code, title, school, description } = course;
+    const { code, title, school, description, github } = course;
     return (
         <div className="project-item">
             <h3>{title}</h3>
             <h4>{school}</h4>
             <h4>{code}</h4>
             <p>{description}</p>
+            { {github} && 
+                <a href={github} target="_blank" rel="noopener noreferrer">Course Assignments</a>
+            }
         </div>
     );
 }
