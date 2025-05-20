@@ -16,7 +16,7 @@ const Sidebar: React.FC<sidebarInterface> = ( {schools, addSchool, deleteSchool}
     }
 
     return (
-        <aside className='page-layout'>
+        <aside className='page-layout project-sidebar'>
             <h3>Filter Courses</h3>
             <form name="choose-languages">
                 {schools.map((school: string, index: number) => {
