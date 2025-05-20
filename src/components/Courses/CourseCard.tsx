@@ -13,7 +13,7 @@ const CourseCard: React.FC<CourseProps> = ( {course} ) => {
             <h4>{school}</h4>
             <h4>{code}</h4>
             <p>{description}</p>
-            { {github} && 
+            { github && 
                 <a href={github} target="_blank" rel="noopener noreferrer">Course Assignments</a>
             }
         </div>
