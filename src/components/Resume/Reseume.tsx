@@ -59,7 +59,7 @@ const Resume: React.FC = ( ) => {
             </section>
             
             <div className="portfolio-links page-layout">
-                <a href="images/Nicole_Bubencik.jpg" download>
+                <a href="/images/Nicole_Bubencik.pdf" download>
                     Download Resume
                 </a>
                 <a href="https://github.com/nikkiBubencik" target="_blank" rel="noreferrer">
