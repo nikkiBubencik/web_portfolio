@@ -1,6 +1,6 @@
 .background{
     background-color: #1E1E1E;
-    color: #E0E7FF;
+    color: #E6E6FA;
 }
 
 .header-content{
@@ -21,17 +21,17 @@
     margin: 0px;
 }
 .back-to-top{
-    color: #E0E7FF;
+    color: #E6E6FA;
 }
 .nav-link{
     text-decoration: none;
-    color: #E0E7FF;
+    color: #E6E6FA;
     padding: 7px;
 }
 
 .nav-link:hover{ 
     /* background-color: rgb(80, 80, 80); */
-    border: 1px solid #E0E7FF;
+    border: 1px solid #E6E6FA;
 }
 
 .footer-content h3{
