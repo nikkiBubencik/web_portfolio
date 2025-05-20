@@ -16,8 +16,10 @@
 }
 
 .job-header{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-templete-columns: 1fr 2fr 1fr;
+/*     display: flex;
+    justify-content: space-between; */
     padding: 20px;
 }
 
@@ -45,9 +47,9 @@ section div{
 }
 
 @media (max-width: 800px) {
-    .job-header{
+/*     .job-header{
         flex-direction: column;
-    }
+    } */
 
     .job-header > * {
         margin: 0px;
