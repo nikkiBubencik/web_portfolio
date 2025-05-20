@@ -6,7 +6,7 @@
 }
 
 html{
-  background-color: #E0E7FF;
+  background-color: #E6E6FA;
   margin: 0;
   /* background-image: url('../public/images/background.jpg');
   background-repeat: no-repeat;
@@ -61,7 +61,7 @@ main{
 }
 
 .page-layout{
-  background-color: #E0E7FF;
+  background-color: #E6E6FA;
   padding: 15px;
   border-radius: 15px;
   margin-bottom: 20px;
