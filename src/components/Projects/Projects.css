@@ -10,16 +10,16 @@
     content: "\2192";
 }
 .project-item:hover{
-    background-color: #362DE1;
+    background-color: #BFA9F2;
     border-radius: 10px;
     padding: 10px;
     color: white;
 }
-.project-item a:hover, .project-item:hover a {
+.project-item:hover a {
     color: white;
 }
 .project-sidebar{
-    border: 1px solid #362DE1;
+    border: 1px solid #BFA9F2;
 }
 .project-links-container{
     display: flex;
