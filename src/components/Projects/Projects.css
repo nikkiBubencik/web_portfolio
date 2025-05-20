@@ -19,8 +19,8 @@
 .project-sidebar{
     /* border: 2px solid #BFA9F2;*/
     background-color: #BFA9F2;
-    position: fixed;
-      top: 0;
+    position: sticky;
+    top: 0;
 }
 .project-links-container{
     display: flex;
@@ -44,5 +44,9 @@
 @media (max-width: 550px){
     #main-project{
         grid-template-columns: 1fr;
-    }    
+    }   
+    .project-sidebar{
+        position: static;
+        top: auto;
+    }
 }
