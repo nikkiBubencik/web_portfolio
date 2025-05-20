@@ -17,7 +17,8 @@
 }
 
 .project-sidebar{
-    border: 2px solid #BFA9F2;
+    /* border: 2px solid #BFA9F2;*/
+    background-color: #BFA9F2;
 }
 .project-links-container{
     display: flex;
