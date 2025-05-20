@@ -18,7 +18,7 @@ const JobCard: React.FC<JobCardProps> = ( props ) => {
                 </div>
                 <h4>{when}</h4>
             </div>
-            <ul>
+            <ul className="job-desc">
                 {description.map((desc: string, index: number) => {
                     return <li key={index}>{desc}</li>
                 })
