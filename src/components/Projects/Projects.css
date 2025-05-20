@@ -13,13 +13,11 @@
     background-color: #BFA9F2;
     border-radius: 10px;
     padding: 10px;
-    color: white;
+    color: black;
 }
-.project-item:hover a {
-    color: white;
-}
+
 .project-sidebar{
-    border: 1px solid #BFA9F2;
+    border: 2px solid #BFA9F2;
 }
 .project-links-container{
     display: flex;
