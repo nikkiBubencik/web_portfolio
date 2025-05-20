@@ -15,7 +15,7 @@
     padding: 10px;
     color: white;
 }
-.project-item a:hover {
+.project-item a:hover, .project-item:hover a {
     color: white;
 }
 .project-sidebar{
