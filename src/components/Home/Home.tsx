@@ -11,6 +11,8 @@ const Home: React.FC = () => {
                 <p>Through my academic and professional experiences, I’ve gained practical knowledge of technologies like React, TypeScript, and Angular. While working as an IT Technician, I self-taught React to automate an internal visitor management system that had previously been manual. The new system allows visitors to sign in, checks whether they need to sign or update a Confidentiality Disclosure Agreement (CDA), and prints a badge based on their citizenship status—blue for U.S. citizens and yellow for others. This project not only improved operational efficiency but also reinforced my skills in web development, full-stack integration, and creative problem-solving.</p>
                 <p>I’m excited to continue growing as a developer and contribute to impactful, user-focused projects in the software development field.</p>
                 <p><Link to="/projects" className="page-link">Projects</Link></p>
+                <p><Link to="/courses" className="page-link">Courses</Link></p>       
+                <p><Link to="/resume" className="page-link">Resume</Link></p>
             </div>
 {/*             <div className="home-page-card">
                 <h2>My Interests</h2>
