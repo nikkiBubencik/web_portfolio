@@ -3,7 +3,7 @@
         "code": "MET CS 669",
         "title": "Database Design and Implementation for Business",
         "school":"Boston University",
-        "description": " Studies the latest relational and object-relational tools and techniques for persistent data and object modeling and management. Provides extensive hands-on experience using Oracle or Microsoft SQL Server as students learn the Structured Query Language (SQL) and design and implement databases. Students design and implement a database system as a term project."
+        "description": " Studies the latest relational and object-relational tools and techniques for persistent data and object modeling and management. Provides extensive hands-on experience using Oracle, PostgreSQL, or Microsoft SQL Server as students learn the Structured Query Language (SQL) and design and implement databases. Students design and implement a database system as a term project."
     },
     {
         "code": "MET CS 701",
