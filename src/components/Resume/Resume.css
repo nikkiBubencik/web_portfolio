@@ -31,7 +31,7 @@
 }
 
 .job-card{
-    background: #BFA9F2;
+    background: var(--accent);
     padding: 15px;
     border-radius: 10px;
 }

@@ -8,21 +8,37 @@ interface ProjectProps{
 const Project: React.FC<ProjectProps> = ( {project} ) => {
     const { name, languages, description, codeLink, link, image } = project;
     return (
-        <div className="project-item">
-            <h3>{name}</h3>
-            <p>Tech Stack: {languages.map((lang: string, index: number) =>
-                    index === languages.length - 1 ? 
+        <div className='project-item'>
+            { image && 
+                <img src={`${image}`} alt={`${name}`}/>
+            }
+            <div>
+                <h3>{name}</h3>
+                <p><i>
+                    {languages.map((lang: string, index: number) =>
+                        index === languages.length - 1 ? 
                         lang
                         : `${lang}, `
-                )}
-            </p>
-            <p>{description}</p>
-            <div className="project-links-container">
-                {(codeLink !== '') && <a href={codeLink} target="_blank" rel="noreferrer" className="project-link">See Code</a>}
-                {(link !== '') && <a href={link} target="_blank" rel="noreferrer" className="project-link">Project</a>}
+                    )}
+                </i></p>
+                <a href="#">Learn More</a>
             </div>
-            {(image !== '') && <p>{image}</p>}
         </div>
+        // <div className="project-item">
+        //     <h3>{name}</h3>
+        //     <p>Tech Stack: {languages.map((lang: string, index: number) =>
+        //             index === languages.length - 1 ? 
+        //                 lang
+        //                 : `${lang}, `
+        //         )}
+        //     </p>
+        //     <p>{description}</p>
+        //     <div className="project-links-container">
+        //         {(codeLink !== '') && <a href={codeLink} target="_blank" rel="noreferrer" className="project-link">See Code</a>}
+        //         {(link !== '') && <a href={link} target="_blank" rel="noreferrer" className="project-link">Project</a>}
+        //     </div>
+        //     {(image !== '') && <p>{image}</p>}
+        // </div>
     );
 }
 

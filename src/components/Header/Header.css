@@ -1,6 +1,6 @@
 .background{
-    background-color: #1E1E1E;
-    color: #E6E6FA;
+    background-color: var(--header-background);
+    color: var(--header-text);
 }
 
 .header-content{
@@ -21,17 +21,17 @@
     margin: 0px;
 }
 .back-to-top{
-    color: #E6E6FA;
+    color: var(--background);
 }
 .nav-link{
     text-decoration: none;
-    color: #E6E6FA;
+    color: var(--background);
     padding: 7px;
 }
 
 .nav-link:hover{ 
     /* background-color: rgb(80, 80, 80); */
-    border: 1px solid #E6E6FA;
+    border: 1px solid var(--background);
 }
 
 .footer-content h3{

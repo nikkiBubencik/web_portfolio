@@ -6,19 +6,40 @@
     align-items: center;
 }
 
+.project-display {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
 .project-link::after{
     content: "\2192";
 }
 .project-item:hover{
-    background-color: #BFA9F2;
-    border-radius: 10px;
-    padding: 10px;
-    color: black;
+    background-color: var(--background);
+    border: 1px solid var(--accent);
 }
+
+.project-item img{
+    max-width: 100%;
+    width:auto;
+    height: auto;
+}
+
+.project-item{
+    max-width: 18rem;
+    min-width: 10rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: var(--accent);
+}
+
 
 .project-sidebar{
     /* border: 2px solid #BFA9F2;*/
-    background-color: #BFA9F2;
+    background-color: var(--accent);
     position: sticky;
     top: 0;
     overflow-y: auto;

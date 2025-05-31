@@ -1,1 +1,6 @@
-
+.course-item:hover{
+    background-color: var(--accent);
+    border-radius: 1rem;
+    padding: 10px;
+    color: black;
+}

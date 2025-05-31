@@ -69,7 +69,7 @@ const ShowProjects: React.FC = () => {
                 <aside id="sidebar">
                     <Sidebar languages={allLanguages} addLanguage={addLanguage} deleteLanguage={deleteLanguage} />
                 </aside>
-                <div className="project-container page-layout">
+                <div className="project-container page-layout project-display">
                     {ShowProjects.map((project: ProjectInterface, index: number) => (
                         <Project project={project} key={index}/>
                         ))
