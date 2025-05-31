@@ -6,3 +6,7 @@ export interface ProjectInterface{
     link: string,
     image: string
 }
+
+export interface ProjectProps{
+    project: ProjectInterface
+}
