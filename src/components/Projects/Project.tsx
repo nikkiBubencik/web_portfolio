@@ -1,12 +1,9 @@
 import './Projects.css';
-import { ProjectInterface } from './ProjectTypes';
+import { ProjectProps } from './ProjectTypes';
 
-interface ProjectProps{
-    project: ProjectInterface
-}
+const Project: React.FC<ProjectProps> = ( {project, handleOpen} ) => {
+    const { name, languages, image } = project;
 
-const Project: React.FC<ProjectProps> = ( {project} ) => {
-    const { name, languages, description, codeLink, link, image } = project;
     return (
         <div className='project-item'>
             { image && 
@@ -21,7 +18,7 @@ const Project: React.FC<ProjectProps> = ( {project} ) => {
                         : `${lang}, `
                     )}
                 </i></p>
-                <a href="#">Learn More</a>
+                <button onClick={handleOpen}>Learn More</button>
             </div>
         </div>
         // <div className="project-item">

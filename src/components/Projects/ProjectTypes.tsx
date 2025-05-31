@@ -8,5 +8,7 @@ export interface ProjectInterface{
 }
 
 export interface ProjectProps{
-    project: ProjectInterface
+    project: ProjectInterface,
+    handleOpen? : any,
+    handleClose? : any
 }

@@ -3,12 +3,15 @@ import './Projects.css';
 import Project from './Project';
 import { ProjectInterface } from './ProjectTypes';
 import Sidebar from './Sidebar';
+import ProjectDetail from './ProjectDetail';
 
 const ShowProjects: React.FC = () => {
     const [projectList, setProjectList] = useState<ProjectInterface[]>([]);
     const [showLangs, setShowLangs] = useState<string[]>([]);
     const [ShowProjects, setShowProjects] = useState<ProjectInterface[]>([]);
     const [allLanguages, setAllLanguages] = useState<string[]>([]);
+    const [selectedProject, setSelectedProject] = useState<ProjectInterface>({name: "", description: "", languages: [], codeLink: "", link: "", image: ""});
+    const [showPopUp, setShowPopUp] = useState<boolean>(false);
 
     useEffect(() => {
         async function getProjects () {
@@ -62,6 +65,15 @@ const ShowProjects: React.FC = () => {
         )
     }
 
+    const handleClose = () =>{
+        setShowPopUp(false);
+    }
+
+    const handleOpen = (project: ProjectInterface) =>{
+        setSelectedProject(project);
+        setShowPopUp(true);        
+    }
+
     return (
         <div className="project-page">
             <h1 className="header-title page-layout"> Projects </h1> 
@@ -71,11 +83,16 @@ const ShowProjects: React.FC = () => {
                 </aside>
                 <div className="project-container page-layout project-display">
                     {ShowProjects.map((project: ProjectInterface, index: number) => (
-                        <Project project={project} key={index}/>
+                        <Project project={project} handleOpen={() => handleOpen(project)} key={index}/>
                         ))
                     }
                 </div>
             </div>
+            { showPopUp &&
+                <div className='project-detail'>
+                    <ProjectDetail project={selectedProject} handleClose={handleClose} ></ProjectDetail>
+                </div>
+            }
         </div>
     )
 }
