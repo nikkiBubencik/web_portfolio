@@ -24,11 +24,11 @@
         "image": "" 
     },
     {
-        "name": "Checklist App (In Progress)",
-        "description": "The application allows users to create Checklists for various reasons like for shopping lists or a To Do list. Users can make and manage their lists and add and manage each item on the list.",
-        "languages": ["React"],
-        "codeLink": "",
-        "link":  "",
+        "name": "QR Code Component",
+        "description": "This is my solution to the QR Code Component challenge on Frontend Mentor. The project was built using HTML and CSS, and focuses on creating a clean, centered QR code card that closely matches the provided design. It's a great beginner-friendly challenge to practice layout, spacing, and responsive design fundamentals.",
+        "languages": ["HTML", "CSS"],
+        "codeLink": "https://github.com/nikkiBubencik/QR_code_component",
+        "link":  "https://nikkibubencik.github.io/QR_code_component/",
         "image": ""
     },
     {
