@@ -4,7 +4,7 @@
         "description": "For my Rich Internet Application Development term project, I built a full-featured Angular web application to manage personal reading lists. The app integrates the Open Library API to retrieve book metadata, supports full CRUD functionality using localStorage, and features responsive components for book search, details, reviews, and status tracking. Users can also create and manage multiple custom reading lists.",
         "languages": ["Angular", "TypeScript", "HTML5", "CSS", "Open Library API", "LocalStorage"],
         "codeLink": "https://github.com/nikkiBubencik/CS701_project",
-        "link": "",
+        "link": "https://nikkibubencik.github.io/CS701_project/",
         "image": "./images/reading_list.jpg" 
     },
     {
