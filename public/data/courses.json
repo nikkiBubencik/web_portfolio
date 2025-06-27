@@ -3,7 +3,7 @@
         "code": "MET CS 779",
         "title": "Advanced Database Management",
         "school":"Boston University",
-        "description": "This course covers advanced aspects of database management including normalization and denormalization, query optimization, distributed databases, data warehousing, and big data. There is extensive coverage and hands on work with SQL, and database instance tuning. Course covers various modern database architectures including relational, key value, object relational and document store models as well as various approaches to scale out, integrate and implement database systems through replication and cloud based instances. Students learn about unstructured "big data" architectures and databases, and gain hands-on experience with Spark and MongoDB."
+        "description": "This course covers advanced aspects of database management including normalization and denormalization, query optimization, distributed databases, data warehousing, and big data. There is extensive coverage and hands on work with SQL, and database instance tuning. Course covers various modern database architectures including relational, key value, object relational and document store models as well as various approaches to scale out, integrate and implement database systems through replication and cloud based instances. Students learn about unstructured 'big data' architectures and databases, and gain hands-on experience with Spark and MongoDB."
     },
     {
         "code": "MET CS 669",
