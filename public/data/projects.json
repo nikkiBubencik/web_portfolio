@@ -32,6 +32,14 @@
         "image": "./images/qr_code_component.jpg"
     },
     {
+        "name": "Social Links Profile",
+        "description": "This is my solution to the Social Links Profile challenge on Frontend Mentor. The project was built using HTML and CSS, and focuses on creating a clean, centered Prodile card that closely displays my titles and links to my GitHub, LinkedIn, and portfolio. It's a great beginner-friendly challenge to practice layout, spacing, and responsive design fundamentals.",
+        "languages": ["HTML", "CSS"],
+        "codeLink": "https://github.com/nikkiBubencik/social-links-profile",
+        "link":  "https://nikkibubencik.github.io/social-links-profile/",
+        "image": "./images/social_links.jpg"
+    },
+    {
         "name": "Book Inventory Database",
         "description": "In collaboration with my team for a database management systems class, we developed a comprehensive book inventory system. This web application enables users to securely log in, manage their reading lists by creating, deleting, viewing, and adding to them, rate and review books, and form reading groups with shared lists. Additionally, users have the capability to invite new members to their groups, enhancing collaborative reading experiences.",
         "languages": ["PHP", "HTML", "CSS", "SQL"],
