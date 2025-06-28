@@ -40,6 +40,14 @@
         "image": "./images/social_links.jpg"
     },
     {
+        "name": "Recipe Page",
+        "description": "This is my solution to the Recipe Page Maine challenge on Frontend Mentor. The project was built using HTML and CSS, and focuses on creating a clean, centered recipe card. It's a great beginner-friendly challenge to practice layout, spacing, and responsive design fundamentals.",
+        "languages": ["HTML", "CSS"],
+        "codeLink": "https://github.com/nikkiBubencik/recipe-page-main",
+        "link":  "https://nikkibubencik.github.io/recipe-page-main/",
+        "image": "./images/recipe.jpg"
+    },
+    {
         "name": "Book Inventory Database",
         "description": "In collaboration with my team for a database management systems class, we developed a comprehensive book inventory system. This web application enables users to securely log in, manage their reading lists by creating, deleting, viewing, and adding to them, rate and review books, and form reading groups with shared lists. Additionally, users have the capability to invite new members to their groups, enhancing collaborative reading experiences.",
         "languages": ["PHP", "HTML", "CSS", "SQL"],
