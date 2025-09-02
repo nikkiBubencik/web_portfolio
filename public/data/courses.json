@@ -3,7 +3,7 @@
         "code": "MET CS 682",
         "title": "Information Systems Analysis and Design",
         "school":"Boston University",
-        "description": "Object-oriented methods of information systems analysis and design for organizations with data- processing needs. System feasibility; requirements analysis; database utilization; Unified Modeling Language; software system architecture, design, and implementation, management; project control; and systems-level testing."
+        "description": "This course describes modern methods of information system analysis and design for organizations with IT resources. It introduces the discovery process for system feasibility, describes stakeholder analysis, and covers requirements analysis. The course explains use cases and their application to requirements analysis. It covers the management of system analysis projects and risks. “Build vs. buy” trade-offs are discussed. The Unified Modeling Language for specifying object-oriented system designs is discussed. Data flow diagrams and activity models are integrated with the analysis and design coverage. The course covers most of the fundamental system architectures, as well as approaches to detailed design."
     },
     {
         "code": "MET CS 779",
