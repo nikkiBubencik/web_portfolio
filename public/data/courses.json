@@ -1,5 +1,11 @@
 [
     {
+        "code": "MET CS 682",
+        "title": "Information Systems Analysis and Design",
+        "school":"Boston University",
+        "description": "Object-oriented methods of information systems analysis and design for organizations with data- processing needs. System feasibility; requirements analysis; database utilization; Unified Modeling Language; software system architecture, design, and implementation, management; project control; and systems-level testing."
+    },
+    {
         "code": "MET CS 779",
         "title": "Advanced Database Management",
         "school":"Boston University",
