@@ -1,5 +1,13 @@
 [
     {
+        "name": "SpendScope",
+        "description": "IN PROGRESS - A responsive web application that helps users track income and expenses, set budgets, and visualize spending trends through interactive charts. Includes custom savings and loan calculators to support financial planning. Built as an MVP using localStorage for data persistence, with plans to evolve to Postgres and user authentication.",
+        "languages": ["React", "TypeScript", "HTML5", "CSS", "NextJS", "ChartJS", "LocalStorage"],
+        "codeLink": "https://github.com/nikkiBubencik/spend_scope",
+        "link": "https://spend-scope-nb.netlify.app/",
+        "image": "./images/gears.png" 
+    },
+    {
         "name": "Reading List Management System",
         "description": "For my Rich Internet Application Development term project, I built a full-featured Angular web application to manage personal reading lists. The app integrates the Open Library API to retrieve book metadata, supports full CRUD functionality using localStorage, and features responsive components for book search, details, reviews, and status tracking. Users can also create and manage multiple custom reading lists.",
         "languages": ["Angular", "TypeScript", "HTML5", "CSS", "Open Library API", "LocalStorage"],
