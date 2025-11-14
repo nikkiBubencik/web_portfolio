@@ -1,5 +1,11 @@
 [
     {
+        "code": "MET CS 782",
+        "title": "IT Strategy and Management",
+        "school":"Boston University",
+        "description": "This course describes and compares contemporary and emerging information technology and its management. Students learn how to identify information technologies of strategic value to their organizations and how to manage their implementation. The course highlights the application of I.T. to business needs."
+    },
+    {
         "code": "MET CS 682",
         "title": "Information Systems Analysis and Design",
         "school":"Boston University",
