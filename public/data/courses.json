@@ -1,5 +1,11 @@
 [
     {
+        "code": "MET CS 625",
+        "title": "Business Data Communication and Networks",
+        "school":"Boston University",
+        "description": "This course presents the foundations of data communications and takes a bottom-up approach to computer networks. The course concludes with an overview of basic network security and management concepts. "
+    },
+    {
         "code": "MET CS 782",
         "title": "IT Strategy and Management",
         "school":"Boston University",
