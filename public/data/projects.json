@@ -17,7 +17,7 @@
     },
     {
         "name": "Public Transportation Dimensional Model",
-        "description": "For my Advanced Database term project, I built a relational data warehouse for a public transportation system using dimensional modeling and ROLAP principles. The project features a constellation schema with multiple fact tables, AI-generated synthetic data, and performance optimization through B-tree indexing."
+        "description": "For my Advanced Database term project, I built a relational data warehouse for a public transportation system using dimensional modeling and ROLAP principles. The project features a constellation schema with multiple fact tables, AI-generated synthetic data, and performance optimization through B-tree indexing.",
         "languages": ["PostgreSQL", "SQL"],
         "codeLink": "https://github.com/nikkiBubencik/Public-Transportation",
         "link": "",
