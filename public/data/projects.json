@@ -24,7 +24,7 @@
         "image": "./images/public_transit_model.jpg" 
     },
     {
-        "name": "MyVisioin Diaryl",
+        "name": "MyVisioin Diary",
         "description": "For my Database Design and Implementation term project, I built a relational database system for a personal vision health tracking application. The database supports user accounts, vision and medication logs, doctors, appointments, diagnoses, test results, and assistive device reviews, using well-defined structural rules, ER modeling, stored procedures, triggers, and indexing to ensure data integrity and performance.",
         "languages": ["PostgreSQL", "SQL"],
         "codeLink": "https://github.com/nikkiBubencik/MyVision-Diary/tree/main",
