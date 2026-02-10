@@ -24,6 +24,14 @@
         "image": "./images/public_transit_model.jpg" 
     },
     {
+        "name": "MyVisioin Diaryl",
+        "description": "For my Database Design and Implementation term project, I built a relational database system for a personal vision health tracking application. The database supports user accounts, vision and medication logs, doctors, appointments, diagnoses, test results, and assistive device reviews, using well-defined structural rules, ER modeling, stored procedures, triggers, and indexing to ensure data integrity and performance.",
+        "languages": ["PostgreSQL", "SQL"],
+        "codeLink": "https://github.com/nikkiBubencik/MyVision-Diary/tree/main",
+        "link": "",
+        "image": "./images/myVisionDiary.jpg" 
+    },
+    {
         "name": "Shopping Cart Application",
         "description": "This application was created as my Server-Side Web Development term project and simulates a shopping cart for a merchant's website. Users can view, search, and sort products by name, description, or price, and add items to their cart. They can place orders and view previous purchases. Admins have all user capabilities plus the ability to add, delete, or update products, and manage user orders. Admins can edit orders by adding/removing products or deleting them. The app checks stock availability when adding items to a cart or order. It supports REST APIs and GraphQL endpoints for products, users, and orders. PassportJS is used for customer registration and authentication.",
         "languages": ["NodeJS", "MongoDB", "GraphQL", "PassportJS"],
