@@ -1,5 +1,11 @@
 [
     {
+        "code": "MET CS 683",
+        "title": "Mobile Application Development with Android",
+        "school":"Boston University",
+        "description": "Learn the principles, techniques, and issues associated with modern mobile application development using Android as the development platform. Topics covered will include Android application components (Activities, Services, Content Providers and Broadcast Receivers), ICC (Inter-component Communication), declarative UI design, data storage, asynchronous processing, Android sensing, 2D graphics, and Android security. You will use Kotlin as the main language for Android development and the latest Jetpack APIs."
+    },
+    {
         "code": "MET CS 625",
         "title": "Business Data Communication and Networks",
         "school":"Boston University",
