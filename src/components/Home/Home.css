@@ -18,6 +18,7 @@
     height: auto;
     max-width: min(100%, 15rem);
     box-shadow: 0 0 5px 5px var(--color-300);
+    overflow: hidden;
 }
 
 .about-me-container{
