@@ -11,12 +11,12 @@ const JobCard: React.FC<JobCardProps> = ( props ) => {
     return(
         <div className="job-card">
             <div className="job-header">
-                <h3>{title}</h3>
-                <div className="company-info">
+                <h3 className='primary-content'>{title}</h3>
+                <div className="company-info secondary-content">
                     <h4>{company}</h4>
                     <h4>{location}</h4>
+                    <h4>{when}</h4>
                 </div>
-                <h4>{when}</h4>
             </div>
             <ul className="job-desc">
                 {description.map((desc: string, index: number) => {

@@ -9,19 +9,19 @@ const EducationCard: React.FC<SchoolCardProps> =( props ) =>{
     const { school, majors, minor, concentration, other } = props.education;
 
     return (
-        <div className="job-card">
-            <h3>{school}</h3>
+        <div className="education-card">
             {majors.map((major => {
-                return <h4 key={major.name}>{major.type}: {major.name}</h4>
+                return <h3 className="primary-content" key={major.name}>{major.type}: {major.name}</h3>
             }))}
             { concentration !== "" &&
-                <h5>Concentration: {concentration}</h5>
+                <h4 className='primary-content' style={{'fontSize':'1rem'}}>Concentration: {concentration}</h4>
             }
             { minor !== "" && 
-                <h5>Minor: {minor}</h5>
+                <h4 className='primary-content' style={{'fontSize':'1rem'}}>Minor: {minor}</h4>
             }
+            <h5 className="secondary-content">{school}</h5>
             {other.map((misc, index) => {
-                return <p key={index}>{misc}</p>
+                return <p className="secondary-content" key={index}>{misc}</p>
             })}
         </div>
     )

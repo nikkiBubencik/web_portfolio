@@ -31,7 +31,7 @@ const Resume: React.FC = ( ) => {
 
     return (
         <div className="section-container resume-container">
-            <h2 className="page-layout">My Resume</h2>
+            <h2 className="header-title page-layout">Resume</h2>
             <section className="page-layout">
                 <h3>Work Experience</h3>
                 <div>
@@ -53,13 +53,13 @@ const Resume: React.FC = ( ) => {
                 <h3>Skills</h3>
                 <div className="education-skill-container">    
                     {skills.map((skill: string, index: number) => {
-                        return <p key={index} className="job-card">{skill}</p>
+                        return <p key={index} className="skill-card">{skill}</p>
                     })}
                 </div>
             </section>
             
             <div className="portfolio-links page-layout">
-                <a href="/images/Nicole_Bubencik.pdf" download>
+                <a href="/images/Nicole_Bubencik.pdf" className="download-link" download>
                     Download Resume
                 </a>
                 <a href="https://github.com/nikkiBubencik" target="_blank" rel="noreferrer">

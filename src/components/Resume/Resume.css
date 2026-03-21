@@ -1,8 +1,19 @@
 .job-desc{
     list-style-position: inside;
-    text-align: center;
-    padding-left: 0;
-    margin: 0 auto;
+    text-align: left;
+    /* padding-left: 0;
+    margin: 0 auto; */
+    padding: 30px;
+    line-height: 1.6rem;
+    width: min(100%, 45rem);
+
+    & li{
+        margin-bottom: .5rem;
+    }
+}
+
+.company-info{
+    line-height: .7rem;
 }
 
 .resume-image{
@@ -16,6 +27,15 @@
     flex-direction: row;
     gap: 15px;
     justify-content: center;
+
+    & > a{
+        text-decoration: none;
+        color: var(--gray-700);
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
 }
 
 .portfolio-links a[target]::after{
@@ -23,17 +43,24 @@
 }
 
 .job-header{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    /* display: flex; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
 /*     display: flex;
     justify-content: space-between; */
     padding: 10px;
+    width: min(100%, 20rem);
+    text-align: right;
+
 }
 
 .job-card{
-    background: var(--color-500);
-    padding: 15px;
+    background: var(--color-400);
     border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: left;
+    width: min(100%, 200rem);
 }
 
 section div{
@@ -53,15 +80,52 @@ section div{
     gap: 10px;
 }
 
-@media (max-width: 800px) {
-    .job-header{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
+.skill-card{
+    background-color: var(--color-400);
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.education-card{
+    background-color: var(--color-400);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+    width: min(100%, 20rem);
+
+    & > h5{
+        margin-bottom: 10px;
+        line-height: 1.25rem;
     }
 
-    .job-header > * {
+    & > p {
         margin: 0px;
+        line-height: 1.25rem;
+    }
+
+    & > h3, & > h4 {
+        margin-bottom: 12px;
+        line-height: 1.5rem;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .job-card{
+        flex-wrap: wrap;
+        gap: 0;
+        padding: 30px;
+    }
+
+    .job-header {
+        text-align: left;
+        /* padding: 30px; */
+        margin-bottom: 0;
+    }
+
+    .job-desc{
+        padding: 0;
     }
 
 }
