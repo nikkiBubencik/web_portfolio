@@ -2,13 +2,13 @@ import { useEffect, useState } from 'react';
 import './Courses.css';
 import CourseCard from './CourseCard';
 import { courseInterface } from './CourseTypes';
-import Sidebar from './Sidebar';
+// import Sidebar from './Sidebar';
 
 const ShowCourses: React.FC = () => {
     const [courseList, setCourseList] = useState<courseInterface[]>([]);
-    const [showSchool, setShowSchool] = useState<string[]>([]);
-    const [showCourse, setShowCourse] = useState<courseInterface[]>([]);
-    const [allSchools, setAllSchools] = useState<string[]>([]);
+    // const [showSchool, setShowSchool] = useState<string[]>([]);
+    // const [showCourse, setShowCourse] = useState<courseInterface[]>([]);
+    // const [allSchools, setAllSchools] = useState<string[]>([]);
 
     useEffect(() => {
         async function getCourses () {
@@ -19,7 +19,7 @@ const ShowCourses: React.FC = () => {
             throw new Error('Network response was not ok');
             }
             setCourseList(data);
-            setShowCourse(data);
+            // setShowCourse(data);
         } catch(error){
             console.log("error fetching data", error);
         }
@@ -29,51 +29,51 @@ const ShowCourses: React.FC = () => {
 
     }, []);
 
-    useEffect(() => {
-        function getAllLanguages(): void{
-            setAllSchools(
-                [...new Set(courseList.flatMap(course => course.school))]
+    // useEffect(() => {
+    //     function getAllLanguages(): void{
+    //         setAllSchools(
+    //             [...new Set(courseList.flatMap(course => course.school))]
 
-            );
-        }
-        getAllLanguages();
-    }, [courseList])
+    //         );
+    //     }
+    //     getAllLanguages();
+    // }, [courseList])
 
-    useEffect(() =>{
-        if (showSchool.length === 0){
-            setShowCourse(courseList);
-        }
-        else{
-            setShowCourse(courseList.filter((course: courseInterface) => 
-                showSchool.includes(course.school)
-            )
-            )
-        }
-    }, [showSchool, courseList])
+    // useEffect(() =>{
+    //     if (showSchool.length === 0){
+    //         setShowCourse(courseList);
+    //     }
+    //     else{
+    //         setShowCourse(courseList.filter((course: courseInterface) => 
+    //             showSchool.includes(course.school)
+    //         )
+    //         )
+    //     }
+    // }, [showSchool, courseList])
     
-    function addSchool(newSchool: string): void {
-        setShowSchool(prevList => [...prevList, newSchool])
-    }
+    // function addSchool(newSchool: string): void {
+    //     setShowSchool(prevList => [...prevList, newSchool])
+    // }
 
-    function deleteSchool(oldSchool: string): void {
-        setShowSchool(
-            showSchool.filter(school => school !== oldSchool)
-        )
-    }
+    // function deleteSchool(oldSchool: string): void {
+    //     setShowSchool(
+    //         showSchool.filter(school => school !== oldSchool)
+    //     )
+    // }
 
     return (
         <div className="project-page">
             <h1 className="header-title page-layout"> Courses </h1> 
-            <div id='main-project'>
-                <aside id="sidebar">
+            <div className='courses-container'>
+                {/* <aside id="sidebar">
                     <Sidebar schools={allSchools} addSchool={addSchool} deleteSchool={deleteSchool} />
-                </aside>
-                <div className="project-container page-layout">
-                    {showCourse.map((course: courseInterface, index: number) => (
+                </aside> */}
+                {/* <div className="project-container page-layout"> */}
+                    {courseList.map((course: courseInterface, index: number) => (
                         <CourseCard course={course} key={index}/>
                         ))
                     }
-                </div>
+                {/* </div>s */}
             </div>
         </div>
     )
