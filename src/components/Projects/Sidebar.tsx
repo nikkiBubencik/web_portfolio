@@ -28,13 +28,14 @@ const Sidebar: React.FC<sidebarInterface> = ( {languages, addLanguage, deleteLan
             <form name="choose-languages">
                 {languages.map((lang: string, index: number) => {
                     return <div key={index}>
-                        <label htmlFor={lang}>{lang}
+                        <label htmlFor={lang}>
                             <input 
                                 key={index}
                                 type="checkbox"
                                 name={lang}
                                 onChange={handleChange}
                             />
+                            {lang}
                             </label>
                             <br />
                         </div>

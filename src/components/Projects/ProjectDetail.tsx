@@ -19,7 +19,7 @@ const ProjectDetail: React.FC<ProjectProps> = ( {project, handleClose} ) => {
                 {(link !== '') && <a href={link} target="_blank" rel="noreferrer" className="project-link">Project</a>}
             </div>
             { image && <img src={`${image}`} alt={`${name} screenshot`}></img>}
-            <button className='close-button' onClick={handleClose}>Close</button>
+            <button className='close-button' onClick={handleClose}>X</button>
         </div>
     )
 }

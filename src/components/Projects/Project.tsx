@@ -6,36 +6,21 @@ const Project: React.FC<ProjectProps> = ( {project, handleOpen} ) => {
 
     return (
         <div className='project-item'>
-            { image && 
-                <img src={`${image}`} alt={`${name}`}/>
-            }
-            <div>
+            <div className="project-img" >
+                <img  src={image ?`${image}` : './images/img_filler.jpg'} alt={`${name}`}/>
+            </div>
+            <div className="project-content">
                 <h3>{name}</h3>
-                <p><i>
+                <p className="secondary-content"><i>
                     {languages.map((lang: string, index: number) =>
                         index === languages.length - 1 ? 
                         lang
                         : `${lang}, `
                     )}
                 </i></p>
-                <button onClick={handleOpen}>Learn More</button>
+                <button className="learn-more-button" onClick={handleOpen}>Learn More</button>
             </div>
         </div>
-        // <div className="project-item">
-        //     <h3>{name}</h3>
-        //     <p>Tech Stack: {languages.map((lang: string, index: number) =>
-        //             index === languages.length - 1 ? 
-        //                 lang
-        //                 : `${lang}, `
-        //         )}
-        //     </p>
-        //     <p>{description}</p>
-        //     <div className="project-links-container">
-        //         {(codeLink !== '') && <a href={codeLink} target="_blank" rel="noreferrer" className="project-link">See Code</a>}
-        //         {(link !== '') && <a href={link} target="_blank" rel="noreferrer" className="project-link">Project</a>}
-        //     </div>
-        //     {(image !== '') && <p>{image}</p>}
-        // </div>
     );
 }
 

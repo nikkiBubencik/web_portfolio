@@ -21,17 +21,16 @@
     margin: 0px;
 }
 .back-to-top{
-    color: var(--background);
+    color: var(--color-200);
 }
 .nav-link{
     text-decoration: none;
-    color: var(--background);
+    color: var(--color-200);
     padding: 7px;
-}
+    &:hover{ 
+        box-shadow: 0 2px var(--color-200);
+    }
 
-.nav-link:hover{ 
-    /* background-color: rgb(80, 80, 80); */
-    border: 1px solid var(--background);
 }
 
 .footer-content h3{

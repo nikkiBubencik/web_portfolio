@@ -12,8 +12,47 @@ code {
     monospace;
 }
 :root{
-  --accent: #BFA9F2;
-  --background: #E6E6FA;
+  /* --accent: #BFA9F2;
+  --background: #E6E6FA; */
   --header-background: #1E1E1E;
   --header-text: #E6E6FA;
+
+  --color-50:  #F7F5FF;
+  --color-100: #EFEAFF;
+  --color-200: #E6E6FA; /* prior background */
+  --color-300: #D6CCF5;
+  --color-400: #C4B5FD;
+  --color-500: #BFA9F2; /* prior accent */
+  --color-600: #B095EF;
+  --color-700: #9571EA;
+  --color-800: #885FE7;
+  --color-900: #602ADF;
+  --color-950: #4F1DC3;
+  --color-1000:#4118A0;
+
+  --gray-50:  #f8f9fa;
+  --gray-100: #e9ecef; 
+  --gray-200: #dee2e6; 
+  --gray-300: #ced4da; 
+  --gray-400: #adb5bd; 
+  --gray-500: #6c757d; 
+  --gray-600: #495057; 
+  --gray-700: #343a40; 
+  --gray-800: #212529; 
+  --gray-900: #0b0c10;
+  --gray-1000: #0E0523;
+}
+
+.secondary-content{
+  color: var(--gray-700);
+  font-size: .8rem;
+}
+
+.header-title{
+  font-size: 3rem;
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Space Grotesk', sans-serif; */
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--gray-900);
 }

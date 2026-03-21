@@ -1,5 +1,5 @@
 .course-item:hover{
-    background-color: var(--accent);
+    background-color: var(--color-500);
     border-radius: 1rem;
     padding: 10px;
     color: black;

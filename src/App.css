@@ -6,7 +6,8 @@
 }
 
 html{
-  background-color: var(--background);
+  background-color: var(--grayr-50);
+  color: var(--gray-900);
   margin: 0;
   height: 100%;
 }
@@ -57,7 +58,7 @@ main{
 }
 
 .page-layout{
-  background-color: var(--bavkground);
+  /* background-color: var(--color-200); */
   padding: 15px;
   border-radius: 15px;
   margin-bottom: 20px;
