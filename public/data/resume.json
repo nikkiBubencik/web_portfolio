@@ -1,7 +1,7 @@
 {
     "jobs": [
         {
-            "title": "IT Technician",
+            "title": "Software Engineer",
             "company": "Eagle Stainless Tube & Fabrication",
             "location": "Franklin, MA",
             "when": "June 2024 to Present",
@@ -10,7 +10,7 @@
                 "Developed a Visitor Management Log System using React, Python, and Flask, streamlining visitor check-in processes and reducing administrative overhead"]
         }
         ,{
-            "title": "IT Intern",
+            "title": "Software Engineer Intern",
             "company": "Eagle Stainless Tube & Fabrication",
             "location": "Franklin, MA",
             "when": "Summer 2023 and Winter 2024",
@@ -29,7 +29,7 @@
             ],
             "minor": "",
             "concentration": "Web Application Development",
-            "other": ["GPA: 3.93", "Part-Time", "May 2026"]
+            "other": ["GPA: 3.94", "May 2026"]
         },
         {
             "school": "University of Rhode Island",
