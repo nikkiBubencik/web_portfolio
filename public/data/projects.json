@@ -1,5 +1,13 @@
 [
     {
+        "name": "Travel Planner",
+        "description": "Travel Planner is an Android mobile application designed to help users organize and manage trips more efficiently. Instead of storing travel plans across multiple apps or documents, this application provides a centralized platform for creating trips, organizing destinations, planning itineraries, and storing travel journal entries.",
+        "languages": ["Android Studio", "Kotlin", "Jetpack COmpose", "Room Database", "MVVM"],
+        "codeLink": "https://github.com/nikkiBubencik/TravelPlanner",
+        "link": "",
+        "image": "./images/travelPlanner.png" 
+    },
+    {
         "name": "SpendScope",
         "description": "IN PROGRESS - A responsive web application that helps users track income and expenses, set budgets, and visualize spending trends through interactive charts. Includes custom savings and loan calculators to support financial planning. Built as an MVP using localStorage for data persistence, with plans to evolve to Postgres and user authentication.",
         "languages": ["React", "TypeScript", "HTML5", "CSS", "NextJS", "ChartJS", "LocalStorage"],
